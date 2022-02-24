@@ -1,3 +1,15 @@
+# Files to Ignore
+crypto_clustering_starter_code.ipynb
+Practice.ipynb
+Practice2.ipynb
+Practice3.ipynb
+Practice4.ipynb
+
+iris.csv
+new_iris_data.csv
+shopping_data.csv
+shopping_data_cleaned.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
