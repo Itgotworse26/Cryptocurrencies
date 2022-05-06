@@ -36,5 +36,5 @@ The clustered dataframe is then used to create this 3-D scatter plot:
 
 The clustered dataframe is also scaled using a MinMaxScaler and then used to create a plot dataframe, which is then used to create this scatter plot:
 
-![scatter plot](https://github.com/Itgotworse26/Cryptocurrencies/tree/blob/Resources/Scatter_Plot.JPG)
+![scatter plot](https://github.com/Itgotworse26/Cryptocurrencies/blob/blob/Resources/Scatter_Plot.JPG)
 
