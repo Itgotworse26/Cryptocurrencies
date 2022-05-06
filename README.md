@@ -11,30 +11,30 @@ The data Martha will be working with is not ideal, so it will need to be process
 # Screenshots
 This was the crypto_df before pre-processing:
 
-![crypto_df before pre-processing](https://github.com/Itgotworse26/Cryptocurrencies/tree/main/Resources/crypto_df_Before-Processing.JPG)
+![crypto_df before pre-processing](https://github.com/Itgotworse26/Cryptocurrencies/blob/main/Resources/crypto_df_Before-Processing.JPG)
 
 
 After several rounds of pre-processing; keeping all currencies being traded, assessing which currencies had a working algorithm, dropping any columns that had null value, keeping only currencies that have coins mined, and dropping the "IsTrading" and "CoinName" columns, this is what the crypto_df now looks like:
 
-![crypto_df after pre-processing](https://github.com/Itgotworse26/Cryptocurrencies/tree/main/Resources/crypto_df_After-Processing.JPG)
+![crypto_df after pre-processing](https://github.com/Itgotworse26/Cryptocurrencies/blob/main/Resources/crypto_df_After-Processing.JPG)
 
 
 After using PCA to reduce dimension to three principal components, we can create a pcs dataframe that uses the names of the cryptocurrencies as its index.
 
-![pcs dataframe](https://github.com/Itgotworse26/Cryptocurrencies/tree/main/Resources/pcs_df.JPG)
+![pcs dataframe](https://github.com/Itgotworse26/Cryptocurrencies/blob/main/Resources/pcs_df.JPG)
 
 
 Thanks to this, we are able to concat the crypto_df and pcs_df to create a clustered dataframe. 
 
-![clustered dataframe](https://github.com/Itgotworse26/Cryptocurrencies/tree/main/Resources/clustered_df.JPG)
+![clustered dataframe](https://github.com/Itgotworse26/Cryptocurrencies/blob/main/Resources/clustered_df.JPG)
 
 
 The clustered dataframe is then used to create this 3-D scatter plot:
 
-![3-D scatter plot](https://github.com/Itgotworse26/Cryptocurrencies/tree/main/Resources/3-D_Scatter_Chart.JPG)
+![3-D scatter plot](https://github.com/Itgotworse26/Cryptocurrencies/blob/main/Resources/3-D_Scatter_Chart.JPG)
 
 
 The clustered dataframe is also scaled using a MinMaxScaler and then used to create a plot dataframe, which is then used to create this scatter plot:
 
-![scatter plot](https://github.com/Itgotworse26/Cryptocurrencies/tree/main/Resources/Scatter_Plot.JPG)
+![scatter plot](https://github.com/Itgotworse26/Cryptocurrencies/tree/blob/Resources/Scatter_Plot.JPG)
 
